@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Механика Кофе в Брянске: кофе разными способами и два адреса в городе.">
+    <title>Механика Кофе — Брянск</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="index.html" aria-label="Механика Кофе — главная"><span>Механика</span><span>Кофе</span></a>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link site-nav__link--active" href="index.html" aria-current="page">Главная</a></li>
+            <li><a class="site-nav__link" href="catalog.html">Кофейная карта</a></li>
+            <li><a class="site-nav__link" href="contacts.html">Адреса</a></li>
+          </ul>
+        </nav>
+        <a class="header-order" href="order.html">Оставить заявку <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero page-shell" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <h1 id="hero-title">Кофе<br>в Брянске</h1>
+          <p class="hero__text">Эспрессо и авторские напитки в двух кофейнях «Механики».</p>
+          <div class="hero__actions">
+            <a class="button" href="catalog.html">К меню</a>
+            <a class="text-link" href="contacts.html">Адреса кофеен <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="images/espresso-shot.jpg" alt="Эспрессо льётся из рожка кофемашины в чашку" width="1600" height="1067" fetchpriority="high">
+          <figcaption>Эспрессо из кофемашины. Фото: <a href="https://unsplash.com/photos/a-coffee-maker-pouring-coffee-into-a-cup-iQIM-H9CQZ4" target="_blank" rel="noreferrer">Matt Hoffman / Unsplash</a></figcaption>
+        </figure>
+      </section>
+
+      <section class="section section--ink" id="advantages" aria-labelledby="methods-title">
+        <div class="page-shell methods">
+          <div class="methods__intro">
+            <h2 id="methods-title">Способы приготовления</h2>
+            <p>Классический эспрессо, кофе из джезвы на горячем песке и авторские рецепты. Кофейни работают на Куйбышева и Войстроченко.</p>
+            <a class="text-link text-link--light" href="#popular">К напиткам <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="method-rows" aria-label="Способы приготовления кофе">
+            <a class="method-row" href="catalog.html#espresso"><span class="method-row__name">Эспрессо-бар</span><span class="method-row__detail">Эспрессо и напитки с молоком</span><span class="method-row__arrow" aria-hidden="true">↗</span></a>
+            <a class="method-row" href="product.html"><span class="method-row__name">Джезва на песке</span><span class="method-row__detail">Хвойная, с можжевельником</span><span class="method-row__arrow" aria-hidden="true">↗</span></a>
+            <a class="method-row" href="catalog.html#specialty"><span class="method-row__name">Авторский кофе</span><span class="method-row__detail">Ореховый кофе</span><span class="method-row__arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section page-shell" id="popular" aria-labelledby="popular-title">
+        <div class="section-heading">
+          <h2 id="popular-title">Напитки</h2>
+          <a class="text-link" href="catalog.html">Смотреть карту <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="coffee-list">
+          <article class="coffee-line">
+            <div><p class="coffee-line__type">ЭСПРЕССО-БАР</p><h3>Капучино</h3><p>Эспрессо со вспененным молоком.</p></div>
+            <p class="coffee-line__price">220–350 ₽</p>
+            <a href="order.html#order-form" aria-label="Перейти к заявке на капучино">К заявке <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="coffee-line">
+            <div><p class="coffee-line__type">ДЖЕЗВА · 180 МЛ</p><h3>Хвойная джезва</h3><p>Готовят на горячем песке, подают с можжевельником.</p></div>
+            <p class="coffee-line__price">310 ₽</p>
+            <a href="product.html">О напитке <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="coffee-line">
+            <div><p class="coffee-line__type">АВТОРСКИЙ · 300 МЛ</p><h3>Ореховый кофе</h3><p>Напиток с арахисовой пастой и кешью.</p></div>
+            <p class="coffee-line__price">340 ₽</p>
+            <a href="order.html#order-form" aria-label="Перейти к заявке на ореховый кофе">К заявке <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="locations-band" aria-labelledby="locations-title">
+        <div class="page-shell locations-band__inner">
+          <div><h2 id="locations-title">Две кофейни<br>в Брянске</h2><p>Куйбышева, 13 · Войстроченко, 1</p></div>
+          <a class="button button--paper" href="contacts.html">Адреса и телефоны</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell site-footer__inner">
+        <a class="site-logo site-logo--footer" href="index.html"><span>Механика</span><span>Кофе</span></a>
+        <nav class="site-footer__links" aria-label="Навигация в подвале"><a href="catalog.html">Кофейная карта</a><a href="product.html">Хвойная джезва</a><a href="order.html">Заявка</a><a href="contacts.html">Адреса</a></nav>
+        <small>© Механика Кофе</small>
+      </div>
+    </footer>
+  </body>
+</html>
