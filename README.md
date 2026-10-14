@@ -25,7 +25,7 @@
 
 ## GitHub Pages
 
-[Открыть опубликованную версию](https://miracle-j15.github.io/kr1-html-css-shop/).
+[Открыть опубликованную версию](https://miracle-j15.github.io/mehanika-coffee-kr1/).
 
 ## Что добавлено к базовой структуре
 
